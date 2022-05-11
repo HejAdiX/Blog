@@ -27,6 +27,24 @@
 		<!-- Pliki Cookies -->
 		<script src="https://skrypt-cookies.pl/id/93cd1f7f6608b9dd.js"></script>
 			
+		<!-- jQueary scrollTo -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+			<script src="jquery.scrollTo.min.js"></script>
+		
+		<script>
+			jQuery(function($)
+			{
+			
+			$('#topnavlink1').click(function() { $.scrollTo($('#scrollnavlink1'), 450); });
+			$('#topnavlink2').click(function() { $.scrollTo($('#scrollnavlink2'), 475); });
+			$('#topnavlink3').click(function() { $.scrollTo($('#scrollnavlink3'), 500); });
+			$('#ph2link').click(function() { $.scrollTo($('#scrollph2link'), 400); });
+			
+			}
+			);
+		</script>
+		
 	</head>
 	
 	<body>
@@ -44,9 +62,9 @@
 					<li><a href="#">Strona głowna</a></li>
 					<li><a href="#">Moje pasje</a>
 						<ul>
-							<li><a href="#">Kostka Rubika</a></li>
-							<li><a href="#">Matematyka</a></li>
-							<li><a href="#">Programowanie</a></li>
+							<li><a href="#" id="topnavlink1">Kostka Rubika</a></li>
+							<li><a href="#" id="topnavlink2">Matematyka</a></li>
+							<li><a href="#" id="topnavlink3">Programowanie</a></li>
 						</ul>
 					</li>
 					<li><a href="#">Moje inne projekty</a>
@@ -72,111 +90,99 @@
 		<main>	
 			<div id="content">
 					
-					<h2>O mnie</h2>
-					<div class="break"></div>
+				<h2>O mnie</h2>
+				<div class="break"></div>
 					
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac eros ac nulla sodales sagittis. Curabitur condimentum, neque ultricies interdum luctus, tortor arcu porttitor ante, ut egestas nisi magna id sapien. Duis tristique faucibus nisl, a varius massa sagittis facilisis. Praesent eu facilisis nisl. In hac habitasse platea dictumst. Duis tristique, enim consectetur tempus aliquam, turpis leo condimentum erat, sit amet hendrerit arcu risus eu elit. Ut mollis ac nulla id egestas.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac eros ac nulla sodales sagittis. Curabitur condimentum, neque ultricies interdum luctus, tortor arcu porttitor ante, ut egestas nisi magna id sapien. Duis tristique faucibus nisl, a varius massa sagittis facilisis. Praesent eu facilisis nisl. In hac habitasse platea dictumst. Duis tristique, enim consectetur tempus aliquam, turpis leo condimentum erat, sit amet hendrerit arcu risus eu elit. Ut mollis ac nulla id egestas.</p>
 					
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum dui non mauris congue, quis semper augue auctor. Ut ipsum ex, interdum ac diam pretium, venenatis scelerisque felis. Nunc commodo nisi sed ultrices semper. Ut finibus nisl diam, sed aliquam metus gravida lacinia. Etiam eleifend dolor eget dui semper, at aliquam tellus interdum. Nunc malesuada augue vehicula, gravida nibh at, bibendum mauris. Vestibulum quis elit commodo, eleifend felis nec, dapibus purus. Phasellus ut sodales neque.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum dui non mauris congue, quis semper augue auctor. Ut ipsum ex, interdum ac diam pretium, venenatis scelerisque felis. Nunc commodo nisi sed ultrices semper. Ut finibus nisl diam, sed aliquam metus gravida lacinia. Etiam eleifend dolor eget dui semper, at aliquam tellus interdum. Nunc malesuada augue vehicula, gravida nibh at, bibendum mauris. Vestibulum quis elit commodo, eleifend felis nec, dapibus purus. Phasellus ut sodales neque.</p>
 
-					<p>Ut elementum in ante a blandit. Sed non gravida purus. Etiam a elit pulvinar, sodales ligula sed, ultricies nisl. Suspendisse finibus lacinia felis, nec molestie massa ullamcorper a. Morbi fringilla nulla non nulla varius vulputate. Nam id bibendum eros, eu feugiat purus. Pellentesque malesuada velit ut fringilla auctor. In varius sagittis leo, ut accumsan nisi tincidunt nec. Quisque pulvinar non tellus quis mattis. Cras pulvinar nulla quis nulla convallis, sed fermentum justo euismod. Nulla sed dolor eros.</p>
+				<p>Ut elementum in ante a blandit. Sed non gravida purus. Etiam a elit pulvinar, sodales ligula sed, ultricies nisl. Suspendisse finibus lacinia felis, nec molestie massa ullamcorper a. Morbi fringilla nulla non nulla varius vulputate. Nam id bibendum eros, eu feugiat purus. Pellentesque malesuada velit ut fringilla auctor. In varius sagittis leo, ut accumsan nisi tincidunt nec. Quisque pulvinar non tellus quis mattis. Cras pulvinar nulla quis nulla convallis, sed fermentum justo euismod. Nulla sed dolor eros.</p>
 						
-						<div id="p1card">
-							<img src="img/photo1.jpg" id="photo1">
-							<div id="ph1txt">Molo na którym byłem na którychś wakacjach</div>
-						</div>
-						
-					<p>Nunc feugiat faucibus enim at tincidunt. Proin eget urna sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean elementum consequat nunc eu luctus. Mauris feugiat, eros nec gravida porttitor, risus enim aliquet odio, sed molestie neque nulla a enim. Proin vestibulum accumsan ante, eu maximus mauris pellentesque et. Nullam a nisi hendrerit, cursus metus ut, iaculis lorem. Suspendisse sollicitudin tincidunt velit, vel imperdiet ligula vulputate et. Vivamus ultrices felis pharetra est luctus ultrices. Aliquam ac velit non sapien tincidunt egestas ut sed nulla. Suspendisse rhoncus, elit id euismod tempus, tortor nunc bibendum sem, ut dignissim eros lacus eu ex. Donec turpis mi, tristique at mi ac, pellentesque venenatis magna.</p>
-						
-					<p>Etiam rutrum sit amet sem non finibus. Sed rutrum porta elit. Proin non purus et sapien auctor gravida at ac massa. Etiam porta enim mi, at suscipit risus imperdiet et. Sed libero lectus, venenatis sit amet libero in, rutrum dictum lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tortor eros, accumsan in tellus eu, cursus convallis lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam scelerisque purus velit, eu vulputate ante placerat at. In eu erat nulla. Aliquam at nulla eros.</p>
-
-					<p>Fusce vitae urna quis lectus eleifend scelerisque eget ac odio. Vestibulum molestie justo a tellus fringilla, commodo cursus massa posuere. Nulla ullamcorper mi vitae diam venenatis placerat. Mauris vehicula erat et dolor posuere, et congue lacus laoreet. Proin vel volutpat sapien, et dictum orci. Donec ullamcorper luctus convallis. Sed fringilla elit vitae dictum tristique. Fusce congue consequat tellus. Vestibulum vitae finibus neque. Donec dapibus ipsum a odio dapibus rutrum. Suspendisse porttitor tincidunt tellus in vulputate. Phasellus mollis viverra lacus, at cursus velit malesuada eu. Aliquam erat volutpat. Nam sodales aliquet metus, nec porta enim varius id.</p>
-
-					<p>Mauris quis nunc a lectus consequat tempus. Sed nibh ligula, interdum eu maximus condimentum, varius efficitur dui. Phasellus placerat ante sed diam luctus dapibus. Vivamus non tincidunt velit, et pulvinar elit. Proin rutrum eleifend quam, at feugiat purus dignissim at. Praesent urna dui, posuere ac tristique non, tempus vel nunc. Praesent tristique gravida arcu vitae condimentum. Aenean ornare placerat augue a porttitor. Donec arcu nulla, lobortis in ipsum eu, suscipit venenatis tellus. Duis vestibulum blandit augue vel ornare. Maecenas volutpat, nunc eget varius hendrerit, nisl elit volutpat neque, ut mattis turpis lorem vel mauris. Quisque vel varius est. Praesent in lorem eget felis ultrices interdum. Aenean mollis pulvinar fermentum. Etiam placerat molestie cursus.</p>
-					
-						<div id="p2card">
-							<div class="overlay">
-								<img src="img/photo2.jpg" id="photo2">
-								<a class="link" href="#"><span class="icon"><i class="icon-search"></i><p>zobacz album moich głupich zdjęć</p></span></a>
-							</div>
-						</div>
-						
-					<p>Curabitur consectetur ligula ut ipsum pulvinar efficitur. Suspendisse molestie dui vitae tempor finibus. Phasellus a lacus vitae odio molestie iaculis non ac neque. Suspendisse pulvinar porttitor lobortis. Sed auctor dolor non velit dapibus porttitor. Maecenas a sapien aliquam, venenatis ante non, tincidunt ex. Suspendisse elit enim, sollicitudin ac nisi at, vulputate rhoncus augue. Praesent euismod, ligula ut porta pharetra, augue ipsum feugiat dui, at vestibulum metus libero at enim. Mauris nulla leo, pharetra eu laoreet maximus, malesuada non leo. Nulla urna velit, dictum sed lectus nec, porta luctus est. Suspendisse molestie odio mi, quis imperdiet nisi fringilla eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec cursus urna magna, ut fringilla dui euismod a. Quisque justo elit, dignissim a rutrum vel, iaculis eu augue. Sed vitae nibh non nisi convallis ultrices in a risus. In varius faucibus ex, a facilisis magna congue a.</p>
-					
-					<h2>Kostka Rubika</h2>
-					<div class="break"></div>
-					
-					<p>Pellentesque convallis orci pellentesque, feugiat nisi bibendum, posuere felis. Quisque dictum libero sed ultricies eleifend. Praesent vel neque tincidunt, iaculis urna vitae, lacinia neque. Morbi luctus euismod est, a viverra turpis condimentum sed. Curabitur pulvinar mi non odio posuere malesuada. Aliquam vulputate et metus at tempus. Maecenas quis tellus vel mi sagittis finibus convallis hendrerit neque. Etiam tempus, leo in eleifend pharetra, ligula est consequat elit, id pulvinar enim purus in massa. Pellentesque dignissim aliquam elementum. Curabitur sit amet nisl non justo euismod tincidunt.</p>
-
-					<h2>Matematyka</h2>
-					<div class="break"></div>
-					
-					<p>Ut eu suscipit tellus, quis scelerisque mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum nec erat imperdiet, dignissim neque vitae, iaculis dolor. Quisque quam tortor, sollicitudin vitae feugiat imperdiet, commodo quis ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam justo metus, molestie non mattis sit amet, finibus id erat. Nam sed blandit risus, eu posuere diam. Ut nec rhoncus mi, eu finibus diam. Pellentesque in porttitor nisl. Integer dignissim molestie dui, a semper tellus aliquam ac. Donec placerat eleifend ligula, at ultricies turpis suscipit vel. Phasellus laoreet ultrices nisl, in imperdiet lectus ultricies quis. Aliquam ac hendrerit neque, vel bibendum odio. Phasellus tincidunt tortor et felis aliquet, quis egestas nibh sodales. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-					<p>Praesent efficitur leo sed massa consectetur, eget fermentum turpis auctor. Suspendisse lacinia ligula ligula, et varius mauris tincidunt quis. Curabitur ornare felis ex, quis dictum lacus malesuada congue. Etiam porta id magna vitae hendrerit. Fusce dictum diam eget mi porta, vel accumsan dui pellentesque. Integer quis auctor mauris. Cras sodales tortor in venenatis tincidunt. Nunc laoreet aliquam ante sed ultricies. Phasellus rhoncus efficitur justo vitae iaculis.</p>
-
-					<h2>Programowanie</h2>
-					<div class="break"></div>
-					
-					<p>Aliquam iaculis augue sit amet iaculis fermentum. Nunc sodales a lacus vitae pulvinar. Vivamus feugiat nibh in arcu iaculis ullamcorper. Aliquam ac est eget nunc efficitur dapibus. Suspendisse vestibulum turpis nec velit mollis ultricies. Etiam id sagittis lorem. Vestibulum nec condimentum ex. Pellentesque malesuada at ipsum nec consequat. In vel urna nunc. Fusce ultrices dui sit amet eros fringilla efficitur. Pellentesque lacinia quam ut turpis pharetra, a molestie massa sagittis. Pellentesque porta, est at lacinia fermentum, mi ante tincidunt leo, eu placerat dui eros in massa. Etiam maximus quis ex non pulvinar.</p>
-	
-					<p>Morbi volutpat neque nec magna tincidunt porta. Mauris tempus auctor dui, sit amet hendrerit diam consequat ut. Aenean a eleifend elit, nec viverra dolor. In finibus eget nulla a vehicula. Sed luctus odio sed arcu rutrum, sit amet scelerisque augue sagittis. Ut volutpat eu nulla vel mollis. Donec vulputate sed enim quis gravida. Cras aliquam nunc massa, ac rutrum quam volutpat ut.</p>
-					
-					<h2>Album moich głupich zdjęć</h2>
-					<div class="break"></div>
-				
+				<div id="p1card">
+					<img src="img/photo1.jpg" id="photo1">
+					<div id="ph1txt">Molo na którym byłem na którychś wakacjach</div>
 				</div>
+						
+				<p>Nunc feugiat faucibus enim at tincidunt. Proin eget urna sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean elementum consequat nunc eu luctus. Mauris feugiat, eros nec gravida porttitor, risus enim aliquet odio, sed molestie neque nulla a enim. Proin vestibulum accumsan ante, eu maximus mauris pellentesque et. Nullam a nisi hendrerit, cursus metus ut, iaculis lorem. Suspendisse sollicitudin tincidunt velit, vel imperdiet ligula vulputate et. Vivamus ultrices felis pharetra est luctus ultrices. Aliquam ac velit non sapien tincidunt egestas ut sed nulla. Suspendisse rhoncus, elit id euismod tempus, tortor nunc bibendum sem, ut dignissim eros lacus eu ex. Donec turpis mi, tristique at mi ac, pellentesque venenatis magna.</p>
+						
+				<p>Etiam rutrum sit amet sem non finibus. Sed rutrum porta elit. Proin non purus et sapien auctor gravida at ac massa. Etiam porta enim mi, at suscipit risus imperdiet et. Sed libero lectus, venenatis sit amet libero in, rutrum dictum lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tortor eros, accumsan in tellus eu, cursus convallis lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam scelerisque purus velit, eu vulputate ante placerat at. In eu erat nulla. Aliquam at nulla eros.</p>
+
+				<p>Fusce vitae urna quis lectus eleifend scelerisque eget ac odio. Vestibulum molestie justo a tellus fringilla, commodo cursus massa posuere. Nulla ullamcorper mi vitae diam venenatis placerat. Mauris vehicula erat et dolor posuere, et congue lacus laoreet. Proin vel volutpat sapien, et dictum orci. Donec ullamcorper luctus convallis. Sed fringilla elit vitae dictum tristique. Fusce congue consequat tellus. Vestibulum vitae finibus neque. Donec dapibus ipsum a odio dapibus rutrum. Suspendisse porttitor tincidunt tellus in vulputate. Phasellus mollis viverra lacus, at cursus velit malesuada eu. Aliquam erat volutpat. Nam sodales aliquet metus, nec porta enim varius id.</p>
+
+				<p>Mauris quis nunc a lectus consequat tempus. Sed nibh ligula, interdum eu maximus condimentum, varius efficitur dui. Phasellus placerat ante sed diam luctus dapibus. Vivamus non tincidunt velit, et pulvinar elit. Proin rutrum eleifend quam, at feugiat purus dignissim at. Praesent urna dui, posuere ac tristique non, tempus vel nunc. Praesent tristique gravida arcu vitae condimentum. Aenean ornare placerat augue a porttitor. Donec arcu nulla, lobortis in ipsum eu, suscipit venenatis tellus. Duis vestibulum blandit augue vel ornare. Maecenas volutpat, nunc eget varius hendrerit, nisl elit volutpat neque, ut mattis turpis lorem vel mauris. Quisque vel varius est. Praesent in lorem eget felis ultrices interdum. Aenean mollis pulvinar fermentum. Etiam placerat molestie cursus.</p>
 					
-					<div id="ggz">
-					
-						<div class="gz">
-						
-							<img src="img/gz1.jpg" style="width:400px;height:250px;">
-						
-						</div>
-						
-						<div class="gz">
-						
-							<img src="img/gz2.jpg" style="width:400px;height:250px;">
-						
-						</div>
-						
-						<div class="gz">
-						
-							<img src="img/gz3.jpg" style="width:400px;height:250px;">
-						
-						</div>
-						
-						<div class="gz">
-						
-							<img src="img/gz1.jpg" style="width:400px;height:250px;">
-						
-						</div>
-						
-						<div class="gz">
-						
-							<img src="img/gz2.jpg" style="width:400px;height:250px;">
-						
-						</div>
-						
-						<div class="gz">
-						
-							<img src="img/gz3.jpg" style="width:400px;height:250px;">
-						
-						</div>
-					
+				<div id="p2card">
+					<div class="overlay">
+						<img src="img/photo2.jpg" id="photo2">
+							<a class="link" href="#" id="ph2link"><span class="icon"><i class="icon-search"></i><p>zobacz album moich głupich zdjęć</p></span></a>
 					</div>
+				</div>
+						
+				<p>Curabitur consectetur ligula ut ipsum pulvinar efficitur. Suspendisse molestie dui vitae tempor finibus. Phasellus a lacus vitae odio molestie iaculis non ac neque. Suspendisse pulvinar porttitor lobortis. Sed auctor dolor non velit dapibus porttitor. Maecenas a sapien aliquam, venenatis ante non, tincidunt ex. Suspendisse elit enim, sollicitudin ac nisi at, vulputate rhoncus augue. Praesent euismod, ligula ut porta pharetra, augue ipsum feugiat dui, at vestibulum metus libero at enim. Mauris nulla leo, pharetra eu laoreet maximus, malesuada non leo. Nulla urna velit, dictum sed lectus nec, porta luctus est. Suspendisse molestie odio mi, quis imperdiet nisi fringilla eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec cursus urna magna, ut fringilla dui euismod a. Quisque justo elit, dignissim a rutrum vel, iaculis eu augue. Sed vitae nibh non nisi convallis ultrices in a risus. In varius faucibus ex, a facilisis magna congue a.</p>
 					
-					<div style="clear:both;display:none;"></div>
+				<div id="scrollnavlink1"style="padding:25px;"></div>
 					
-		</main>
+				<h2>Kostka Rubika</h2>
+				<div class="break"></div>
+					
+				<p>Pellentesque convallis orci pellentesque, feugiat nisi bibendum, posuere felis. Quisque dictum libero sed ultricies eleifend. Praesent vel neque tincidunt, iaculis urna vitae, lacinia neque. Morbi luctus euismod est, a viverra turpis condimentum sed. Curabitur pulvinar mi non odio posuere malesuada. Aliquam vulputate et metus at tempus. Maecenas quis tellus vel mi sagittis finibus convallis hendrerit neque. Etiam tempus, leo in eleifend pharetra, ligula est consequat elit, id pulvinar enim purus in massa. Pellentesque dignissim aliquam elementum. Curabitur sit amet nisl non justo euismod tincidunt.</p>
+
+				<div id="scrollnavlink2"style="padding:25px;"></div>
+					
+				<h2>Matematyka</h2>
+				<div class="break"></div>
+					
+				<p>Ut eu suscipit tellus, quis scelerisque mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum nec erat imperdiet, dignissim neque vitae, iaculis dolor. Quisque quam tortor, sollicitudin vitae feugiat imperdiet, commodo quis ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam justo metus, molestie non mattis sit amet, finibus id erat. Nam sed blandit risus, eu posuere diam. Ut nec rhoncus mi, eu finibus diam. Pellentesque in porttitor nisl. Integer dignissim molestie dui, a semper tellus aliquam ac. Donec placerat eleifend ligula, at ultricies turpis suscipit vel. Phasellus laoreet ultrices nisl, in imperdiet lectus ultricies quis. Aliquam ac hendrerit neque, vel bibendum odio. Phasellus tincidunt tortor et felis aliquet, quis egestas nibh sodales. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Praesent efficitur leo sed massa consectetur, eget fermentum turpis auctor. Suspendisse lacinia ligula ligula, et varius mauris tincidunt quis. Curabitur ornare felis ex, quis dictum lacus malesuada congue. Etiam porta id magna vitae hendrerit. Fusce dictum diam eget mi porta, vel accumsan dui pellentesque. Integer quis auctor mauris. Cras sodales tortor in venenatis tincidunt. Nunc laoreet aliquam ante sed ultricies. Phasellus rhoncus efficitur justo vitae iaculis.</p>
+
+				<div id="scrollnavlink3"style="padding:25px;"></div>
+					
+				<h2>Programowanie</h2>
+				<div class="break"></div>
+					
+				<p>Aliquam iaculis augue sit amet iaculis fermentum. Nunc sodales a lacus vitae pulvinar. Vivamus feugiat nibh in arcu iaculis ullamcorper. Aliquam ac est eget nunc efficitur dapibus. Suspendisse vestibulum turpis nec velit mollis ultricies. Etiam id sagittis lorem. Vestibulum nec condimentum ex. Pellentesque malesuada at ipsum nec consequat. In vel urna nunc. Fusce ultrices dui sit amet eros fringilla efficitur. Pellentesque lacinia quam ut turpis pharetra, a molestie massa sagittis. Pellentesque porta, est at lacinia fermentum, mi ante tincidunt leo, eu placerat dui eros in massa. Etiam maximus quis ex non pulvinar.</p>
+	
+				<p>Morbi volutpat neque nec magna tincidunt porta. Mauris tempus auctor dui, sit amet hendrerit diam consequat ut. Aenean a eleifend elit, nec viverra dolor. In finibus eget nulla a vehicula. Sed luctus odio sed arcu rutrum, sit amet scelerisque augue sagittis. Ut volutpat eu nulla vel mollis. Donec vulputate sed enim quis gravida. Cras aliquam nunc massa, ac rutrum quam volutpat ut.</p>
+					
+				<div id="scrollph2link"style="padding:25px;"></div>
+				
+				<h2>Album moich głupich zdjęć</h2>
+				<div class="break"></div>
 			
+			</div>
+				
+				<div id="ggz">
+					<div class="gz">
+						<img src="img/gz1.jpg" style="width:400px;height:250px;">
+					</div>
+					<div class="gz">
+						<img src="img/gz2.jpg" style="width:400px;height:250px;">
+					</div>
+					<div class="gz">
+						<img src="img/gz3.jpg" style="width:400px;height:250px;">
+					</div>
+					<div class="gz">
+						<img src="img/gz1.jpg" style="width:400px;height:250px;">
+					</div>
+					<div class="gz">
+						<img src="img/gz2.jpg" style="width:400px;height:250px;">
+					</div>
+					<div class="gz">	
+						<img src="img/gz3.jpg" style="width:400px;height:250px;">
+					</div>
+				</div>
+				
+				<div style="clear:both;display:none;"></div>	
+		</main>
+		
 		<footer>
 			<div id="footer">
 				Dzięki za wizytę. 2022r. &copy Wszelkie prawa zatsrzeżone
 			</div>
 		</div>
-	</footer>
+		</footer>
 	
 		<!-- jQueary (sticky) -->
 		<script src="jquery-1.11.3.min.js"></script>

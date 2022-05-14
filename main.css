@@ -46,7 +46,6 @@ a:hover
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:30px;
-	padding:15px;
 	text-align:justify;
 	min-height:750px;
 	font-size:18px;
@@ -261,4 +260,9 @@ ol > li > ul > li:hover
 	float:left;
 	margin-top:25px;
 	padding:0 50px;
+}
+
+.border-1v
+{
+	border: solid 3px #00eeff;
 }
